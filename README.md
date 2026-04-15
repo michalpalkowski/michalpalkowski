@@ -16,7 +16,7 @@ Rust systems engineer specializing in blockchain infrastructure, zero-knowledge 
 
 | Project | Area | What I built |
 |---|---|---|
-| [dojoengine/bonsai-trie](https://github.com/dojoengine/bonsai-trie) | State management | Provable forking — partial Merkle trie and multi-proof extraction for Starknet storage |
+| [dojoengine/bonsai-trie](https://github.com/dojoengine/bonsai-trie) | State management | Provable forking — partial Merkle trie and multi-proof extraction for Starknet storage [#3](https://github.com/dojoengine/bonsai-trie/pull/3) |
 | [neotheprogramist/sharding_proxy](https://github.com/neotheprogramist/sharding_proxy) | Smart contracts (Cairo) | On-chain sharding protocol — storage commitment verification, access control, shard lifecycle (10 PRs) |
 | [amd-sev-snp-attestation-sdk](https://github.com/michalpalkowski/amd-sev-snp-attestation-sdk) | TEE / Hardware security | Extended AMD SEV-SNP attestation SDK with sharding-specific remote attestation flows |
 | [swiftness-prover](https://github.com/michalpalkowski/swiftness-prover) | ZK proofs | Contributed FRI and last-layer implementations to a Cairo-VM STARK prover |
