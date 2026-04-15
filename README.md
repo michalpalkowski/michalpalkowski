@@ -1,38 +1,32 @@
 # Michał Pałkowski
 
-Rust developer. I work on blockchain infrastructure, TEE attestation, and zero-knowledge proof systems — mostly in the Starknet/Dojo ecosystem.
+Rust systems engineer specializing in blockchain infrastructure, zero-knowledge proofs, and trusted execution environments (TEE). I build low-level protocol software — proof systems, state management, on-chain verification — in the Starknet ecosystem.
+## Highlights
 
-## Open Source Contributions
+**[dojoengine/katana](https://github.com/dojoengine/katana)** — High-performance Starknet sequencer (Dojo core infra)
+> Enabled ZK provability on forked chain state, allowing sharded game worlds to generate validity proofs. [#473](https://github.com/dojoengine/katana/pull/473)
 
-### Starknet & Dojo (Cartridge)
+**[cartridge-gg/solana-verifier](https://github.com/cartridge-gg/solana-verifier)** — STARK proof verification on Solana
+> Ported core verification logic from Ethereum/Starknet to Solana — implemented FRI verification, Pedersen hashing, commitment schemes, and proof batching across 18 merged PRs.
 
-| Repository | What I did | PRs |
+**[cartridge-gg/sharding-operator](https://github.com/cartridge-gg/sharding-operator)** — Game state sharding with TEE attestation
+> Core contributor (24 merged PRs). Built the settlement pipeline, TEE integration, multi-shard orchestration, Dojo framework integration, and API authentication layer.
+
+## More Contributions
+
+| Project | Area | What I built |
 |---|---|---|
-| [dojoengine/katana](https://github.com/dojoengine/katana) | Made forked node provable — enabling ZK proofs over forked chain state | [#473](https://github.com/dojoengine/katana/pull/473) |
-| [cartridge-gg/sharding-operator](https://github.com/cartridge-gg/sharding-operator) | Core contributor — built TEE integration, settlement pipeline, multi-shard support, Dojo integration, API auth | 24 merged PRs |
-| [cartridge-gg/solana-verifier](https://github.com/cartridge-gg/solana-verifier) | Implemented STARK proof verification on Solana — FRI verify, Pedersen, vector decommit, table decommit, stark commit, proof batching | 18 merged PRs |
-| [dojoengine/bonsai-trie](https://github.com/dojoengine/bonsai-trie) | Provable forking — partial trie and multi-proof support for Starknet Merkle trees | [#3](https://github.com/dojoengine/bonsai-trie/pull/3) |
-| [neotheprogramist/sharding_proxy](https://github.com/neotheprogramist/sharding_proxy) | Cairo smart contracts for sharding — storage commitment, access control, cancel-shard, TEE integration | 10 merged PRs |
-
-### ZK & TEE
-
-| Repository | What I did |
-|---|---|
-| [michalpalkowski/amd-sev-snp-attestation-sdk](https://github.com/michalpalkowski/amd-sev-snp-attestation-sdk) | Extended Automata's AMD SEV-SNP SDK with sharding-specific attestation flows |
-| [michalpalkowski/swiftness-prover](https://github.com/michalpalkowski/swiftness-prover) | Contributed FRI and last-layer implementations to the Cairo-VM STARK prover |
-| [michalpalkowski/evm-verifier-playground](https://github.com/michalpalkowski/evm-verifier-playground) | GPS verifier + Fibonacci example for testing STARK verification on EVM (Sepolia) |
-
-### Other
-
-| Repository | What I did |
-|---|---|
-| [neotheprogramist/sybilla-old2](https://github.com/neotheprogramist/sybilla-old2) | Built matching engine, settlement pipeline, proof generation, and live balance system for a Starknet trading platform |
-| [chudkowsky/chessformer](https://github.com/chudkowsky/chessformer) | V2 architecture with MCTS self-play, GPU training optimizations, UV migration |
+| [dojoengine/bonsai-trie](https://github.com/dojoengine/bonsai-trie) | State management | Provable forking — partial Merkle trie and multi-proof extraction for Starknet storage |
+| [neotheprogramist/sharding_proxy](https://github.com/neotheprogramist/sharding_proxy) | Smart contracts (Cairo) | On-chain sharding protocol — storage commitment verification, access control, shard lifecycle (10 PRs) |
+| [amd-sev-snp-attestation-sdk](https://github.com/michalpalkowski/amd-sev-snp-attestation-sdk) | TEE / Hardware security | Extended AMD SEV-SNP attestation SDK with sharding-specific remote attestation flows |
+| [swiftness-prover](https://github.com/michalpalkowski/swiftness-prover) | ZK proofs | Contributed FRI and last-layer implementations to a Cairo-VM STARK prover |
+| Sybilla (trading platform) | Backend (Rust) | Built matching engine, settlement pipeline, proof generation, and real-time balance system (20+ PRs) |
+| [chudkowsky/chessformer](https://github.com/chudkowsky/chessformer) | ML / Python | Transformer + MCTS self-play architecture, GPU training pipeline |
 
 ## Own Projects
 
-- [**KsefPay**](https://github.com/michalpalkowski/KsefPay) — Rust KSeF integration for Polish e-invoices (FA3). Axum dashboard for solo/micro-businesses.
+[**KsefPay**](https://github.com/michalpalkowski/KsefPay) — Polish e-invoice (KSeF) integration in Rust. Full FA3 schema support, multi-tenant auth, Axum web dashboard for small businesses.
 
 ## Tech
 
-Rust · Cairo · Solidity · Python · Starknet · Dojo · AMD SEV-SNP · ZK-STARKs · SP1 · Axum
+Rust · Cairo · Solidity · Python · Starknet · Dojo · AMD SEV-SNP · ZK-STARKs · SP1 · Axum · PostgreSQL
