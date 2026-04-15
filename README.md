@@ -25,6 +25,8 @@ Rust systems engineer specializing in blockchain infrastructure, zero-knowledge 
 
 ## Own Projects
 
+[**evm-stark-verifier**](https://github.com/michalpalkowski/evm-stark-verifier) — PoC exploring how STARK proving works on EVM. Built from Eternum's on-chain verifier contracts with my modifications, deployed to Sepolia. Solidity + Rust tooling.
+
 [**KsefPay**](https://github.com/michalpalkowski/KsefPay) — Polish e-invoice (KSeF) integration in Rust. Full FA3 schema support, multi-tenant auth, Axum web dashboard for small businesses.
 
 ## Tech
